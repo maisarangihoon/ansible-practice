@@ -4,7 +4,7 @@
   tasks:
   - name: install httpd (apt-get install httpd)
     apt:
-      name: httpd
+      name: apache2
       state: present
 
           
