@@ -6,6 +6,11 @@
     apt:
       name: apache2
       state: present
+  - name: install ping 
+    apt:
+      name: ping
+      state: present    
+
 
           
       
