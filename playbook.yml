@@ -1,0 +1,13 @@
+---
+- hosts: all
+  become: yes
+  tasks:
+    - name: install httpd (apt-get install httpd)
+      apt:
+        name: install httpd server
+        state: present
+
+          
+      
+
+...
