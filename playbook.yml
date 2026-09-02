@@ -6,10 +6,17 @@
     apt:
       name: apache2
       state: present
+  - name: start the apache2 service
+    service:
+       name: apache2
+       state: started
   - name: install ping 
     apt:
       name: iputils-ping
-      state: present    
+      state: present   
+  - name: let's start ping service
+    ping:
+       
 
 
           
