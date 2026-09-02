@@ -8,7 +8,7 @@
       state: present
   - name: install ping 
     apt:
-      name: ping
+      name: iputils-ping
       state: present    
 
 
